@@ -3,16 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TEST.LoginPageTest">
+      <class name="TEST.LoginPInTest">
         <methods>
-          <include name="clickOnLoginWithoutDataTest"/>
-          <include name="Browser"/>
-          <include name="extentReports"/>
-          <include name="closeBrowser"/>
-          <include name="signupLinkTest"/>
-          <include name="flushResult"/>
+          <include name="loginTOZerodhaWithPinTest"/>
+          <include name="browser"/>
         </methods>
-      </class> <!-- TEST.LoginPageTest -->
+      </class> <!-- TEST.LoginPInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

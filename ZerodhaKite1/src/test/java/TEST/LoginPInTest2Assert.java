@@ -39,5 +39,11 @@ public class LoginPInTest2Assert {
 		zerodhaPinpage.clickOnContinue();
 		
 	}
+	
+	@Test
+	public void demo() {
+		System.out.println("Akash");
+	}
+	
 
 }
